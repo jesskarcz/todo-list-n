@@ -123,3 +123,13 @@ li {
   font-style: italic;
   color: #6b6b6b;
 }
+
+.footer{
+  background-color: rgb(255, 142, 5);
+  color: #fff;
+  font-size: 10px;
+}
+.footer p {
+  margin: 0;
+  padding: 5px 0;
+}

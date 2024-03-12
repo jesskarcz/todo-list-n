@@ -137,7 +137,9 @@ function App() {
       console.error('Error sharing tasks:', error);
     }
   };
-  
+
+  let currentDate = new Date();
+  let currentYear = currentDate.getFullYear();
 
   return (
     <div className="App">
@@ -230,7 +232,12 @@ function App() {
           </li>
         ))}
       </ul>
+            
+      <div className="footer">
+          <p>TODO LIST - Web App built by JK - {currentYear} </p>
+      </div>
     </div>
+     
   );
 }
 
