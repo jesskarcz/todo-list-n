@@ -149,7 +149,7 @@ function App() {
           <button onClick={acceptCookies}>Accept Cookies</button>
         </div>
       )}
-      <h1>TO-DO LIST 🗒️</h1>
+      <h1 className='title'>TO-DO LIST 🗒️</h1>
       <input
         type="text"
         value={inputValue}
@@ -234,7 +234,7 @@ function App() {
       </ul>
             
       <div className="footer">
-          <p>TODO LIST - Web App built by JK - {currentYear} </p>
+          <p>TODO LIST - Built by JK - {currentYear} </p>
       </div>
     </div>
      

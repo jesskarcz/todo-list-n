@@ -7,7 +7,12 @@
 
 .App {
   text-align: center;
-  margin-top: 50px;
+}
+
+.title {
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+  margin-top: 0;
 }
 
 input {
@@ -131,6 +136,7 @@ li {
   position: fixed;
   width: 100%;
   bottom: 0;
+  margin-top: 20px;;
 }
 .footer p {
   margin: 0;
