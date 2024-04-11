@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+/src/bkup-App.css
+/src/bkup-App.js
 
 # production
 /build
